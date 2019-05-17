@@ -45,10 +45,13 @@ public class Exercise {
     public Position getaPosition(){
         return aPosition;
     }
+// research: string formatting/https://dzone.com/articles/java-string-format-examples
 
     public void showExercise(){
 
-       System.out.println();
+        System.out.format("%-60s" + "DURATION: " + "%d" + " seconds" + "%n", this.name, this.second);
+        System.out.println("---------------------------------------------------------------------------------");
+        System.out.println("DESCRIPTION: " + this.description + "\n\n");
 
 
     }
