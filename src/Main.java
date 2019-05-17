@@ -47,9 +47,15 @@ public class Main {
             if (j.getaPosition()== Exercise.Position.FLOOR  && j.getSecond() > 60) {
                 j.showExercise();
             }
-            }
+       }
 
 
-      }
+        //bonus:
+
+        Exercise[] intervalWorkout = {type1, type2, type3};
+        IntervalWorkout W1 = new IntervalWorkout(intervalWorkout, 4, 30);
+        W1.createIntervall();
+
      }
+  }
 
