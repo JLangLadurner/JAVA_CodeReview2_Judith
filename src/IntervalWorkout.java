@@ -2,7 +2,6 @@
 Several Exercises
 Number of repetitions
 Breaktime (in seconds)
-
  */
 
 public class IntervalWorkout {
